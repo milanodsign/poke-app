@@ -29,7 +29,6 @@ export const GlobalsContext = ({ children }) => {
   }, []);
 
   const valLogin = (user, pass) => {
-    console.log(user, pass);
     try {
       user === dataUser[0].user && pass === dataUser[0].password
         ? (setIsLogin(true),
