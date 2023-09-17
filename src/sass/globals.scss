@@ -1,0 +1,33 @@
+@use 'loginScreen';
+@use 'header';
+@use 'dashboard';
+@use 'pagination';
+@use 'loading';
+@use 'singlePage';
+
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: grey;
+  --border-input: #d3d3d3;
+  --header-color: #F6D74D;
+  --color-weight-item: #3ACF53;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

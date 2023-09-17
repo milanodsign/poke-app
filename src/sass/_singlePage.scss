@@ -1,0 +1,40 @@
+.namePokemon {
+    text-transform: capitalize;
+}
+
+
+.conInfoPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.infoPokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: auto;
+
+    span {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    label.labelStat {
+        padding-right: 10px;
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+}
